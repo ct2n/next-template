@@ -26,7 +26,7 @@ export function ThemeToggle() {
         </Button>
       </DropdownMenuTrigger>
 
-      <DropdownMenuContent align="end">
+      <DropdownMenuContent align="end" className="flex flex-col gap-0.5">
         <DropdownMenuItem
           className={cn(theme === "light" && "bg-muted")}
           onClick={() => setTheme("light")}
