@@ -1,10 +1,7 @@
-import { ArrowRight } from "lucide-react";
 import Image from "next/image";
 import { useTranslations } from "next-intl";
 import { LocaleSelector } from "@/components/locale/locale-selector";
 import { ThemeToggle } from "@/components/theme/theme-toggle";
-import { Button } from "@/components/ui/button";
-import { Link } from "@/i18n/navigation";
 
 export default function Home() {
   const t = useTranslations("HomePage");
@@ -32,12 +29,6 @@ export default function Home() {
           </h1>
           <p className="max-w-md text-lg leading-8">{t("description")}</p>
         </div>
-        <Button size="lg" className="w-full text-lg font-medium" asChild>
-          <Link href="/users">
-            <ArrowRight className="size-4" />
-            API Test
-          </Link>
-        </Button>
       </main>
     </div>
   );
