@@ -9,6 +9,20 @@ interface UseMutationResult<TData, TVariables> {
   error: ApiError | undefined;
 }
 
+/**
+ * Hook for performing mutations with SWR
+ *
+ * @param key - The key to use for caching the mutation
+ * @param mutationFn - The function to perform the mutation
+ * @returns An object containing the mutate function, loading state, and error
+ *
+ * @example
+ * ```tsx
+ * const { mutate, isLoading, error } = useMutation<User, User>('/users', async (user) => {
+ *   return await axios.post('/users', user);
+ * });
+ * ```
+ */
 export function useMutation<TData, TVariables>(
   key: string,
   mutationFn: (variables: TVariables) => Promise<TData>,
