@@ -13,6 +13,7 @@ A simple and opinionated Next.js project template pre-configured with essential 
 - **Developer Experience**:
   - **Biome**: Fast and performant toolchain for linting and formatting.
   - **Prettier**: Code formatting with `prettier-plugin-tailwindcss` for consistent class sorting.
+  - **Docker**: Ready-to-use `Dockerfile` based on Alpine Linux with multi-stage build.
 
 ## Getting Started
 
@@ -40,6 +41,20 @@ A simple and opinionated Next.js project template pre-configured with essential 
    ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+
+## Docker
+
+1. **Build the image**
+
+   ```bash
+   docker build -t next-template .
+   ```
+
+2. **Run the container**
+
+   ```bash
+   docker run -p 3000:3000 next-template
+   ```
 
 ## Scripts
 
