@@ -1,0 +1,49 @@
+{
+  "HomePage": {
+    "title": "To get started, edit the page.tsx file.",
+    "description": "Looking for a starting point or more instructions? Head over to Templates or the Learning center."
+  },
+
+  "NotFound": {
+    "title": "Page not found",
+    "description": "The page you are looking for could not be found.",
+    "backHome": "Back to homepage"
+  },
+
+  "UsersPage": {
+    "title": "API Test Page",
+    "description": "Test user-service functions with mock API routes",
+    "simulationControls": "Simulation Controls",
+    "simulationDescription": "Configure API simulation parameters for testing",
+    "simulateError": "Simulate Error",
+    "delayLabel": "Delay (ms):",
+    "getUsers": "GET /users",
+    "getUsersDescription": "Fetch and display user data from the API",
+    "refresh": "Refresh",
+    "loading": "Loading...",
+    "loadingData": "Loading data...",
+    "userCount": "Found {count} users:",
+    "postUsers": "POST /users",
+    "postUsersDescription": "Create a new user by submitting the form below",
+    "email": "Email *",
+    "username": "Username *",
+    "fullName": "Full Name *",
+    "role": "Role",
+    "selectRole": "Select a role",
+    "creating": "Creating...",
+    "createUser": "Create User"
+  },
+
+  "ThemeToggle": {
+    "toggleTheme": "Toggle theme",
+    "light": "Light",
+    "dark": "Dark",
+    "system": "System"
+  },
+
+  "LocaleSelector": {
+    "changeLocale": "Change locale",
+    "vietnamese": "Vietnamese",
+    "english": "English"
+  }
+}

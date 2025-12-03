@@ -1,0 +1,16 @@
+import { useTranslations } from "next-intl";
+import { Link } from "@/i18n/navigation";
+
+export default function NotFound() {
+  const t = useTranslations("NotFound");
+
+  return (
+    <div className="flex min-h-screen flex-col items-center justify-center gap-4">
+      <h1 className="text-3xl font-semibold">{t("title")}</h1>
+      <p className="text-muted-foreground">{t("description")}</p>
+      <Link href="/" className="text-primary underline underline-offset-4">
+        {t("backHome")}
+      </Link>
+    </div>
+  );
+}

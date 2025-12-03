@@ -1,0 +1,48 @@
+{
+  "HomePage": {
+    "title": "Để bắt đầu, chỉnh sửa file page.tsx.",
+    "description": "Tìm kiếm điểm bắt đầu hoặc hướng dẫn hơn? Đi đến Templates hoặc Learning center."
+  },
+  "NotFound": {
+    "title": "Không tìm thấy trang",
+    "description": "Trang bạn tìm không tồn tại hoặc đã bị xoá.",
+    "backHome": "Về trang chủ"
+  },
+
+  "UsersPage": {
+    "title": "Trang kiểm tra API",
+    "description": "Kiểm tra các hàm trong user-service với mock API routes",
+    "simulationControls": "Thiết lập mô phỏng",
+    "simulationDescription": "Cấu hình tham số mô phỏng API để kiểm tra",
+    "simulateError": "Mô phỏng lỗi",
+    "delayLabel": "Độ trễ (ms):",
+    "getUsers": "Lấy dữ liệu người dùng",
+    "getUsersDescription": "Lấy và hiển thị dữ liệu người dùng từ API",
+    "refresh": "Làm mới",
+    "loading": "Đang tải...",
+    "loadingData": "Đang tải dữ liệu...",
+    "userCount": "Tìm thấy {count} người dùng:",
+    "postUsers": "Tạo người dùng",
+    "postUsersDescription": "Tạo người dùng mới bằng cách gửi biểu mẫu bên dưới",
+    "email": "Email *",
+    "username": "Tên đăng nhập *",
+    "fullName": "Họ và tên *",
+    "role": "Vai trò",
+    "selectRole": "Chọn vai trò",
+    "creating": "Đang tạo...",
+    "createUser": "Tạo Người Dùng"
+  },
+
+  "ThemeToggle": {
+    "toggleTheme": "Chuyển chế độ",
+    "light": "Sáng",
+    "dark": "Tối",
+    "system": "Hệ thống"
+  },
+
+  "LocaleSelector": {
+    "changeLocale": "Đổi ngôn ngữ",
+    "vietnamese": "Tiếng Việt",
+    "english": "Tiếng Anh"
+  }
+}
